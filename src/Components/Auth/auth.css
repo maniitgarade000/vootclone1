@@ -1,0 +1,147 @@
+#auth_block {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+#auth_block article{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#auth_block article > div{
+    background:#2C2542;
+    color: #fff;
+    padding: 30px;
+    border-radius: 4px;
+}
+#auth_block article > div h1{
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 20px;
+}
+#auth_block article > div p{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+#auth_block article > div form{
+    width: 100%;
+}
+#auth_block article > div form .form_group{
+    position: relative;
+}
+#auth_block article > div form input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1px;
+    background-color: transparent;
+    border-bottom: 1px solid #9184bc;
+    color: #ffffff;
+    font-size: 16px;
+}
+::placeholder{
+    color: #fff;
+}
+#auth_block article>div form label{
+    font-weight: bold;
+    font-size: 16px; 
+    position: absolute;
+    text-transform: capitalize;
+    top: 24px;
+    left: 7px;
+    padding: 2px;
+}
+
+input:focus + label,
+input:focus-within + label {
+  position: absolute;
+  top: 0px;
+ font-style: normal;
+ transform: translate(20px, -20px) scale(1);
+ transition:ease all 0.7s;
+  opacity: 0.6;
+}
+label:hover{
+    font-size: 10px;
+}
+input:focus{
+  outline: none;
+ 
+
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  background-color: transparent !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+#auth_block article > div form button{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    font-size: 14px;
+    min-height: 40px;
+    margin-top: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    text-transform: unset;
+    background-color: #37d3b6;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);
+    background-image: linear-gradient(
+263deg
+, #5909b3, #7f0dff);
+}
+.register_block{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.register_block a{
+    text-decoration: none;
+    color: #b085e1d1;
+    flex: 1 1 ;
+    padding: 10px;
+    font-size: 13px;
+    box-shadow: 1px 2px 2px #111;
+}
+.register_block a:last-child{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 70px;
+}
+.phoneBtn{
+    background: #37d3b6;
+    margin: 14px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.authMenu a img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 9px;
+    border-radius: 100%;
+    padding: 2px;
+  }

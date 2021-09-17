@@ -1,0 +1,114 @@
+#vootHeaders {
+    width: 100%;
+    height: 60px;
+    background: #0d0620;
+  }
+  
+  #vootHeaders article {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    color: #fff;
+  }
+  
+  #vootHeaders article .vootLogo {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #vootHeaders article .vootMenu {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .vootLogo img {
+    width: 62px;
+    height: 23px;
+    vertical-align: baseline;
+  }
+  
+  #vootHeaders ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  #vootHeaders ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 20px;
+    opacity: 0.6;
+    text-transform: capitalize;
+  }
+  #vootMenuBlock {
+    display: flex;
+  }
+  
+  .authMenu li a {
+    padding: 17px 10px !important;
+    opacity: 1 !important;
+  }
+  
+  #vootHeaders li a.active {
+    border-top: 2px solid #7f0dff;
+    opacity: 1;
+  }
+  
+  #vootHeaders .dropdown {
+    z-index: 1;
+    top: 60px;
+    right: 30px;
+    display: none;
+    position: absolute;
+    min-width: 243px;
+    box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+    padding-top: 4px;
+    padding-left: 0;
+    border-radius: 4px;
+    padding-right: 0;
+    padding-bottom: 4px;
+    background-color: #2a2440;
+  }
+  #vootHeaders .dropdown ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  #vootHeaders .dropdown ul li a {
+    opacity: 1;
+    width: 85%;
+    padding: 14px 20px;
+    display: block;
+    border-bottom: 1px solid #ffffff78;
+    margin: 0px 14px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  #vootHeaders .dropdown ul li:last-child a {
+    border: none;
+  }
+  
+  .arrow-up {
+    border-bottom: 13px solid #2a2440;
+    position: absolute;
+    top: -13px;
+    right: 10px;
+    z-index: 1111;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+  }
+  .dropdown ul li:hover{
+    border-bottom: 1px solid #fff;
+    display: inline;
+  }
+  #vootHeaders article div button{
+    background: #29D4B6;
+    padding: 6px 8px;
+    border-radius: 4px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
